@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #ffffff,  #fcede8, #f8d9cf, #d1e8ff);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.coming-soon {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #666;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+  }
